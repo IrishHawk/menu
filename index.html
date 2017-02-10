@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+a:link    {color:green; background-color:transparent; text-decoration:none}
+a:visited {color:blue; background-color:transparent; text-decoration:none}
+a:hover   {color:red; background-color:transparent; text-decoration:underline}
+a:active  {color:yellow; background-color:transparent; text-decoration:underline}
+.mystyle {background-color: yellow !important;}
+</style>
+</head>
+<body>
+<div id="testim"></div>
+<div id="testim1"></div>
+  <li><a id="opnow1" href="/index.html">Coffee</a></li>
+  <li><a id="opnow2" href="/page1.html">Tea</a></li>
+  <li><a id="opnow3" href="/page2.html">Tea</a></li>
+  <li><a id="opnow4" href="/index.html">Coca Cola</a></li>
+</ul>
+
+<div id="testim3" style="color: red; font-size: 24px;"></div>
+<button>Current link and so on</button>
+<script>
+    var z = document.links;
+    var zebra = "mystyle"
+    var txt = "";
+    var i;
+    for (i = 0; i < x.length; i++) {
+        txt = txt +  x[i].href + "<br>";
+    }
+    var x = document.getElementById("demo3").href;
+    document.getElementById("testim3").innerHTML = x;
+    document.getElementById("testim1").innerHTML = txt;
+    var y = document.referrer;
+    var say;
+    
+    document.getElementById("testim").innerHTML = y;
+    document.getElementById("opnow").className = zebra;
+    document.getElementsByTagName("A").style.backgroundColor = "red";
+    
+ 
+</script>
+</body>
+
+
+</html>
